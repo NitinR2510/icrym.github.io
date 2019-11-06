@@ -1,0 +1,132 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <title>
+        A little about thyself
+    </title>
+    <style>
+        body{
+            text-align: center;
+            background-color: bisque;
+        }
+        h2{
+            border-bottom: .1rem black dotted;
+            padding: 2rem .5rem 2rem 3rem;
+            width: 50%;
+            margin-left: 24%;
+        }
+        #desc{
+            padding: .5rem;
+            margin-bottom: .3rem;
+            border: .1rem green dotted;
+            border-radius: 23px;
+            width: 50%;
+            margin-left: 24%;    
+        }
+        #about{
+            text-align: center;
+        }
+ header{
+     background-color: mediumaquamarine;
+     padding: .5rem;
+     border-bottom:lime 0.2rem solid;
+ }
+ #head{
+     text-align: center;
+ }
+ #welcome{
+     width: 10%;
+     float: left;
+     min-width: 20px;
+ }
+ #inside{
+     width: 20%;
+     min-width: 10px;
+     float:right;
+ }
+ #joy{
+     width:20%;
+     min-width: 10px;
+     float: left;
+     border: bisque .2rem solid;
+     border-radius: 30px;
+ }
+ #home{
+     width: 10%;
+     min-width: 10px;
+     float: right;
+     border-radius: 300px;
+ }
+        
+    </style>
+</head>
+<body> 
+    <header>
+        <img id="home" src="house.jpg" alt="my house">
+        <h3> Welcome to the House of ICRYM</h3>
+        <p id="head">
+            let's talk about yourself first.
+            <br>
+            It's super secret. Even the developers don't peek here.
+        </p>
+        <img id="welcome" src="welcome.png" alt="welcome">
+    </header>
+<h2>About Yourself</h2>
+<p id="desc">
+    How about we speak about yourself first?
+    <br>
+    Or, <strong>Skip</strong> and go to <a href="bot.htm">room</a>
+</p>
+
+<form> 
+  Name:<br> 
+  <input type="text" placeholder="Your name"> 
+  <br> 
+  Nickname:<br>
+  <input type="text" placeholder="I'll call you so">
+  <br>
+  Email id:<br> 
+  <input type="email" name="email_id">
+  <br>
+  Date of Birth:<br>
+  <input type="date">
+  <br>
+  <br>
+  <hr width=30% size="3rem">
+  <em>How about you describe yourself to me in a brief paragraph?</em>
+  <br>
+  <textarea id="about" rows = "5" cols = "30" name = "description">
+      A little about yourself...(Remove this text before writing)
+ </textarea><br><br>
+ <em>How about you tell me about your three favourite books? (We'll of course discuss more as time passes by)</em>
+ <br>
+ <input type="text" placeholder="1st" >
+ <br>
+ <input type="text" placeholder="2nd">
+ <br>
+ <input type="text" placeholder="3rd">
+  <br><br> 
+  <em>And do you listen to music? Please, I beg, tell meany of your three favourite genres or atleast songs.</em>
+  <br>
+  <br>
+  <select name="Music">
+        <option value="Song">Song</option>
+        <option value="Genre">genre</option>
+        
+  </select>
+  <br><br>
+  <input type="text" placeholder="1st" >
+  <br>
+  <input type="text" placeholder="2nd">
+  <br>
+  <input type="text" placeholder="3rd">
+  <br><br>
+  <input type="submit" value="Submit"> 
+</form>  
+<br>
+<h4>Thank You. I'll try to remember all this!!! Gosh!</h4>
+  <img id="inside" src="inside.gif" alt="inside out">
+  <img id="joy" src="joy.gif" alt="these memories are mine">
+</body> 
+</html>

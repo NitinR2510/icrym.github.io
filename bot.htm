@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            The talk room
+        </title>
+        <style>
+            body{
+                background-image: cross-fade();
+            }
+            #come{
+                text-align: center;
+                
+                color:antiquewhite;
+
+            }
+            #seat{
+                width: 13%;
+                background-color: white;
+                text-align: center;
+                border: .2rem solid black;
+                padding: .1rem;
+                margin-left: 70%;
+                margin-top: 5%;
+            }
+            #info{
+                width: 13%;
+                background-color: white;
+                text-align: center;
+                border: .2rem solid black;
+                padding: .1rem;
+                margin-left: 70%;
+            }
+            iframe{
+                float:left;
+            }
+            audio{
+              float: right;
+            }
+        </style>
+    </head>
+    <body background="room.jpg">
+        <section id="bot">
+            <p id="come">
+                <strong> This is my room. Thanks for coming.</strong>
+            </p>
+            <p id ="seat">
+                Um...
+                <br>Err...
+                <br>
+                Why don't you have a seat?
+                <br><br><br>
+                <strong>
+                I have set the music on play.
+                <br>
+                I believe it is soothing. 
+                <br>
+                If you want to stop it, just press the pause button.
+                </strong>
+            </p>
+            <p id="info">
+                Please go here to register your mood.<br>
+                <button><a href="image.php">Click here</a></button><br>
+                To speak to me
+                <br>
+                just enter your thoughts in the chat box
+            </p>
+            <audio controls autoplay style="width: 300px;">
+                    <source src="water_heal.mp3" type="audio/mpeg"  >
+                 </audio>  
+            <iframe
+                allow="microphone;"
+                    width="350"
+                        height="430"
+                            src="https://console.dialogflow.com/api-client/demo/embedded/8079027f-87df-4240-bf25-b52eba9094b9">
+            </iframe>
+          
+        </section>
+    </body>
+</html>

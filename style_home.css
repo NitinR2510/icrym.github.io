@@ -1,0 +1,60 @@
+
+body{
+    background-color: beige;
+    padding: .2rem;
+}
+header
+{
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: .2rem slateblue solid;
+}
+#coverpage{
+    border: .2rem black dotted;
+    border-radius:340px;
+}
+#query{
+    float: right;
+}
+#query input[type=search] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+#query input[type=search]:focus {
+    width: 100%;
+    background-color: cyan;
+    }
+#introduction{
+    margin-left: 12%;
+    margin-right: 13%;
+    background-color: yellow;
+    padding: .3rem;
+    text-align: center;
+    margin-top: 1rem;
+    border: .1rem black dashed;
+    margin-bottom: 1.3rem;
+}
+#Welcome{
+    color: rebeccapurple;
+    border-bottom: .1rem rebeccapurple dashed;
+
+}
+#image{
+    margin-right: 12%;
+    margin-left: 12%;
+}
+#image_1{
+    width: 44.5%;
+}
+#image_2,#image_3{
+    width:25%;
+}
+footer{
+    padding-top:1rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
