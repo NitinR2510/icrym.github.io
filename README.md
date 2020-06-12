@@ -9,3 +9,7 @@ icrym project - the website shown is just the bot
  
  https://nitinr2510.github.io/icrym.html is only the bot part of the project and does not include any log-in mechanism or data-base capacity.
  If you want to see the whole proh=ject, download the files, load in xampp or similar software and run.
+ 
+ ## Telegram bot
+ 
+ I also loaded this on telegram. Again, the chatbot alone. You may check @icrymbot
